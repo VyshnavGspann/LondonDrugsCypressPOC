@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cross-env": "^7.0.3",
+    "cypress": "^14.3.2",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "name": "londondrugs_automation_poc",
+  "version": "1.0.0",
+  "description": "LondonDrugs Ecom and OMS automation with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "sfcc:createAccount:test": "cross-env PASSWORD=Apva@2025 TEST_APP=sfcc TEST_ENV=uat cypress run --spec 'cypress/src/specs/RegisteredUser_E2EOrderShipToHome.spec.cy.js' --headed",
+    "sfcc:registeredUser:test": "cross-env PASSWORD=Test@123 TEST_APP=sfcc TEST_ENV=uat cypress run --spec 'cypress/src/specs/RegisteredUser_E2EOrderShipToHome.spec.cy.js' --headed",
+    "sfcc:guestUser:test": "cross-env PASSWORD=Test@123 TEST_APP=sfcc TEST_ENV=uat cypress run --spec 'cypress/src/specs/RegisteredUserE2EOrderShipToHome.spec.cy.js' --headed",
+    "api:test": "cross-env TEST_ENV=uat cypress run --spec 'tests/specs/sfcc/regression/API.cy.js'"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "baseUrl": "https://london-drugs-uat-origin.kibology.us/",
+  "dataDomekey": "datadome=nsGayXFe4n5aAJGFofzbYz4hAWAhBumPVuwF2Bw3HgMBh8f2mETRyA1ohrIb~4f55NTVOGmWZbJEXM5US9v25iiX7_xEh5qr6Y3VdXuZtjqfDIlqxIJQ~~t3EDzBX23c",
+  "domain": "london-drugs-uat-origin.kibology.us",
+  "userEmail": "Cooper@yopmail.com",
+  "password": "Test@123",
+  "payment": {
+    "CreditCard": {
+      "visa": {
+        "nameOnCard": "Test Accept",
+        "cardTypeValue": "Visa",
+        "cardNumber": "4111 1111 1111 1111",
+        "cvv": "123"
+      },
+      "amex": {},
+      "discover": {},
+      "master": {
+        "nameOnCard": "Test Accept",
+        "cardTypeValue": "MasterCard",
+        "cardNumber": "5431 1111 1111 1111",
+        "cvv": "123"
+      }
+    },
+    "paypal": {
+      "useremail": "",
+      "password": ""
+    }
+  },
+  "shipping": {
+    "firstName": "John",
+    "lastName": "Accept",
+    "address1": "501 Av Dressage",
+    "address2": "Apt 101",
+    "city": "Stittsville",
+    "zipcode": "K2V 0C8",
+    "phone": "555-555-5555"
+  },
+  "shippingInStore": {
+    "firstName": "John",
+    "lastName": "Accept",
+    "phone": "555-555-5555",
+    "address1": "501 Av Dressage",
+    "address2": "Apt 101",
+    "postalCode": "K2V 0C8",
+    "city": "Stittsville"
+  },
+  "productData": {
+    "regular": {
+      "productcode": "L3166675"
+    },
+    "giftCard": {
+      "productcode": "621217"
+    }
+  }
+}
